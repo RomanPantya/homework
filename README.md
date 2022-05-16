@@ -2,7 +2,7 @@
 
 ### For Romario:
 * 16.05.2022
-  1. your own clean branch:
+  * Create your own clean branch:
       * pull changes from 'master' (origin) to 'master' (your local)
       * from your 'mater' create new branch 'roma-solutions'
       * push this new branch to origin (to github)
