@@ -6,4 +6,5 @@
       * pull changes from 'master' (origin) to 'master' (your local)
       * from your 'mater' create new branch 'roma-solutions'
       * push this new branch to origin (to github)
+      * send message in Telegram to @nikita_moiseienko to recieve new task
 
