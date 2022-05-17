@@ -7,4 +7,5 @@ const a = 11;
 const b = 7;
 const sum = a + b;
 
-console.log()
+console.log(a + " + " + b + " = " + (a + b));
+console.log(`${a} + ${b} = ${a + b}`);
