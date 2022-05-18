@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/RomanPantya/homework/issues"
   },
-  "homepage": "https://github.com/RomanPantya/homework#readme"
+  "homepage": "https://github.com/RomanPantya/homework#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^6.3.1"
+  }
 }
