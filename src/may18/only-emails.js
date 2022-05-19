@@ -18,11 +18,8 @@ const userInputs = Array(1000)
  */
 
 // PUT YOUR CODE UNDER THIS COMMENT
-// TODO
 
 const emails = userInputs
-    .filter((el) => el.includes('@') && el.includes('.'));
-    // TODO
-    // .filter((el))
+    .filter((el) => /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(el));
 
 console.log(emails);
