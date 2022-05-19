@@ -18,25 +18,11 @@ const userInputs = Array(1000)
  */
 
 // PUT YOUR CODE UNDER THIS COMMENT
+// TODO
 
-const emails = userInputs.filter((el) => {
-    if (el.split('', el.length).some((ch) => {
-        if (ch === '@') {
-            return true;
-        } else {
-            return false;
-        }
-        console.log(el);
-        
-    })) {
-        return true;
-    } else {
-        return false;
-    }
-})
-   
-console.log(emails.length);
+const emails = userInputs
+    .filter((el) => el.includes('@') && el.includes('.'));
+    // TODO
+    // .filter((el))
 
-
-
-
+console.log(emails);
