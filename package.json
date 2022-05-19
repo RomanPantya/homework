@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/RomanPantya/homework#readme",
   "devDependencies": {
-    "@faker-js/faker": "^6.3.1"
+    "@faker-js/faker": "^6.3.1",
+    "@types/node": "^17.0.34"
   }
 }
