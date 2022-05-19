@@ -20,12 +20,22 @@ const userInputs = Array(1000)
 // PUT YOUR CODE UNDER THIS COMMENT
 
 const emails = userInputs.filter((el) => {
-    if (el.split().some((char) => {
+    if (el.split('', el.length).some((ch) => {
+        if (ch === '@') {
+            return true;
+        } else {
+            return false;
+        }
+        console.log(el);
         
-    }))
+    })) {
+        return true;
+    } else {
+        return false;
+    }
 })
    
-console.log(emails);
+console.log(emails.length);
 
 
 
