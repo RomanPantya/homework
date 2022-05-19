@@ -1,10 +1,23 @@
-# Rabotay, sekel, sonce sche visoko, severniye koreici uge ne spyat!
+## Usage:
 
-### For Romario:
-* 16.05.2022
-  * Create your own clean branch:
-      * pull changes from 'master' (origin) to 'master' (your local)
-      * from your 'mater' create new branch 'roma-solutions'
-      * push this new branch to origin (to github)
-      * send message in Telegram to @nikita_moiseienko to recieve new task
-
+* ```
+  git checkout master
+  ```
+  Go to <master> branch.
+* ```
+  git pull origin master
+  ```
+  Update branch to get fresh tasks.
+* ```
+  npm install
+  ```
+  This command automaticaly install all external libraries that are using in tasks.
+* ```
+  git checkout -b <yourName/fileName>
+  ```
+  Create and checkout to new branch special for working on this task.
+* Resolve your task.
+* ```
+  git push origin <yourName/fileName>
+  ```
+* sms to Telegram that your solution is ready for check (or you may create PullRequest on GitHub by yourself, BUT NOT MERGE)
