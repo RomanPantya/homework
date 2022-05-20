@@ -1,5 +1,10 @@
 const { faker } = require('@faker-js/faker');
-const userInputs = Array(1000).fill(null).map((input, i) => i % 20 === 0 ? faker.internet.email() : faker.datatype.string());
+const userInputs = Array(1000)
+    .fill(null)
+    .map((input, i) => i % 20 === 0
+        ? faker.internet.email()
+        : faker.datatype.string()
+    );
 
 /**
  * You recieve array of inputs from user, stored in <userInputs> variable
@@ -13,4 +18,8 @@ const userInputs = Array(1000).fill(null).map((input, i) => i % 20 === 0 ? faker
  */
 
 // PUT YOUR CODE UNDER THIS COMMENT
-console.log(userInputs);
+
+const emails = userInputs
+    .filter((el) => /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(el));
+
+console.log(emails);
